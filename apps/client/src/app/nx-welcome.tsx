@@ -432,7 +432,10 @@ export const NxWelcome = ({ title }: { title: string }) => {
             </h1>
           </div>
 
-          <div id="hero" className="rounded">
+          <div
+            id="hero"
+            className="rounded"
+          >
             <div className="text-container">
               <h2>
                 <svg
@@ -465,7 +468,10 @@ export const NxWelcome = ({ title }: { title: string }) => {
           </div>
 
           <div id="middle-content">
-            <div id="learning-materials" className="rounded shadow">
+            <div
+              id="learning-materials"
+              className="rounded shadow"
+            >
               <h2>Learning materials</h2>
               <a
                 href="https://nx.dev/getting-started/intro?utm_source=nx-project"
@@ -707,7 +713,10 @@ export const NxWelcome = ({ title }: { title: string }) => {
                   </span>
                 </span>
               </a>
-              <div id="nx-cloud" className="rounded shadow">
+              <div
+                id="nx-cloud"
+                className="rounded shadow"
+              >
                 <div>
                   <svg
                     id="nx-cloud-logo"
@@ -768,7 +777,10 @@ export const NxWelcome = ({ title }: { title: string }) => {
             </div>
           </div>
 
-          <div id="commands" className="rounded shadow">
+          <div
+            id="commands"
+            className="rounded shadow"
+          >
             <h2>Next steps</h2>
             <p>Here are some things you can do with Nx:</p>
             <details>
@@ -880,5 +892,5 @@ export const NxWelcome = ({ title }: { title: string }) => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}

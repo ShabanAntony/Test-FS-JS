@@ -1,6 +1,6 @@
-import { NxWelcome } from './nx-welcome';
+import { Link, Route, Routes } from 'react-router-dom'
 
-import { Link, Route, Routes } from 'react-router-dom';
+import { NxWelcome } from './nx-welcome'
 
 export const App = () => {
   return (
@@ -44,5 +44,5 @@ export const App = () => {
       </Routes>
       {/* END: routes */}
     </div>
-  );
-};
+  )
+}
