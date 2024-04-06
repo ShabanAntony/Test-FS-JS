@@ -1,0 +1,64 @@
+[NX Daemon Server] - 2024-04-06T11:33:43.178Z - Started listening on: /var/folders/54/5l79s6xs2rbbqpq4sqymzh3m0000gp/T/9f9b05d6fc66319ea18b/d.sock
+[NX Daemon Server] - 2024-04-06T11:33:43.205Z - [WATCHER]: Subscribed to changes within: /Users/anton.shaban/Documents/Education/FS-JS (native)
+[NX Daemon Server] - 2024-04-06T11:33:43.206Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:33:43.206Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-06T11:33:43.208Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-06T11:33:43.209Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-06T11:33:43.209Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:33:43.209Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:33:44.596Z - Time taken for 'hash changed files from watcher' 0.40091603994369507ms
+[NX Daemon Server] - 2024-04-06T11:33:44.597Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:33:46.242Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-06T11:33:46.243Z - Time taken for 'total for creating and serializing project graph' 3033.704917013645ms
+[NX Daemon Server] - 2024-04-06T11:33:46.245Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-06T11:33:46.245Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 3034. Response time: 3.
+[NX Daemon Server] - 2024-04-06T11:33:46.795Z - [WATCHER]: package.json was modified
+[NX Daemon Server] - 2024-04-06T11:33:46.796Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-06T11:33:46.898Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-06T11:33:46.898Z - [REQUEST]: package.json
+[NX Daemon Server] - 2024-04-06T11:33:46.898Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:33:47.384Z - Time taken for 'hash changed files from watcher' 0.28187501430511475ms
+[NX Daemon Server] - 2024-04-06T11:33:48.357Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-06T11:33:48.357Z - [WATCHER]: Stopping the watcher for /Users/anton.shaban/Documents/Education/FS-JS (sources)
+[NX Daemon Server] - 2024-04-06T11:33:48.358Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-06T11:33:48.358Z - [WATCHER]: Stopping the watcher for /Users/anton.shaban/Documents/Education/FS-JS (outputs)
+[NX Daemon Server] - 2024-04-06T11:33:48.358Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-04-06T11:34:19.936Z - Started listening on: /var/folders/54/5l79s6xs2rbbqpq4sqymzh3m0000gp/T/9f9b05d6fc66319ea18b/d.sock
+[NX Daemon Server] - 2024-04-06T11:34:19.938Z - [WATCHER]: Subscribed to changes within: /Users/anton.shaban/Documents/Education/FS-JS (native)
+[NX Daemon Server] - 2024-04-06T11:34:19.942Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:34:19.943Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-06T11:34:19.944Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:34:19.944Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-06T11:34:19.945Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-06T11:34:19.945Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:34:19.945Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:34:20.630Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-06T11:34:20.631Z - Time taken for 'total for creating and serializing project graph' 686.1262500286102ms
+[NX Daemon Server] - 2024-04-06T11:34:20.633Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-06T11:34:20.633Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 686. Response time: 3.
+[NX Daemon Server] - 2024-04-06T11:36:09.278Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-06T11:36:20.129Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:36:20.130Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-06T11:36:20.130Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:36:20.132Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-06T11:36:20.133Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-06T11:36:20.134Z - Time taken for 'total for creating and serializing project graph' 0.3409169912338257ms
+[NX Daemon Server] - 2024-04-06T11:36:20.135Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-06T11:36:20.135Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-04-06T11:36:34.455Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-06T11:36:34.455Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-06T11:36:34.457Z - Time taken for 'total for creating and serializing project graph' 0.15620797872543335ms
+[NX Daemon Server] - 2024-04-06T11:36:34.457Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-06T11:36:34.457Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX Daemon Server] - 2024-04-06T11:36:34.949Z - [WATCHER]: 17 file(s) created or restored, 2 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-04-06T11:36:34.949Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-06T11:36:35.055Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-06T11:36:35.055Z - [REQUEST]: apps/client/src/app/app.module.scss,apps/client/.babelrc,apps/client/src/assets/.gitkeep,apps/client/src/favicon.ico,apps/client/.eslintrc.json,apps/client/src/index.html,apps/client/webpack.config.js,apps/client/src/app/nx-welcome.tsx,apps/client/tsconfig.app.json,apps/client/tsconfig.json,apps/client/src/app/app.spec.tsx,apps/client/jest.config.ts,apps/client/src/main.tsx,apps/client/src/app/app.tsx,apps/client/tsconfig.spec.json,apps/client/src/styles.scss,apps/client/project.json,package.json,nx.json
+[NX Daemon Server] - 2024-04-06T11:36:35.055Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:36:35.785Z - Time taken for 'hash changed files from watcher' 4.895707964897156ms
+[NX Daemon Server] - 2024-04-06T11:36:36.278Z - Time taken for 'build-project-configs' 1207.5551660060883ms
+[NX Daemon Server] - 2024-04-06T11:36:45.766Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-06T11:36:45.766Z - [WATCHER]: Stopping the watcher for /Users/anton.shaban/Documents/Education/FS-JS (sources)
+[NX Daemon Server] - 2024-04-06T11:36:45.767Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-06T11:36:45.767Z - [WATCHER]: Stopping the watcher for /Users/anton.shaban/Documents/Education/FS-JS (outputs)
+[NX Daemon Server] - 2024-04-06T11:36:45.767Z - Server stopped because: "Lock file changed"
