@@ -62,3 +62,50 @@
 [NX Daemon Server] - 2024-04-06T11:36:45.767Z - Closed a connection. Number of open connections: 0
 [NX Daemon Server] - 2024-04-06T11:36:45.767Z - [WATCHER]: Stopping the watcher for /Users/anton.shaban/Documents/Education/FS-JS (outputs)
 [NX Daemon Server] - 2024-04-06T11:36:45.767Z - Server stopped because: "Lock file changed"
+[NX Daemon Server] - 2024-04-06T11:41:10.139Z - Started listening on: /var/folders/54/5l79s6xs2rbbqpq4sqymzh3m0000gp/T/9f9b05d6fc66319ea18b/d.sock
+[NX Daemon Server] - 2024-04-06T11:41:10.141Z - [WATCHER]: Subscribed to changes within: /Users/anton.shaban/Documents/Education/FS-JS (native)
+[NX Daemon Server] - 2024-04-06T11:41:10.146Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:41:10.147Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-06T11:41:10.148Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:41:10.149Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-06T11:41:10.156Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-06T11:41:10.156Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:41:10.156Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:41:16.924Z - Time taken for 'hash changed files from watcher' 6.559624969959259ms
+[NX Daemon Server] - 2024-04-06T11:41:18.268Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-06T11:41:18.269Z - Time taken for 'total for creating and serializing project graph' 8118.764999985695ms
+[NX Daemon Server] - 2024-04-06T11:41:18.270Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-06T11:41:18.270Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 8119. Response time: 2.
+[NX Daemon Server] - 2024-04-06T11:41:24.321Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-06T11:41:49.300Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 14 file(s) deleted
+[NX Daemon Server] - 2024-04-06T11:41:49.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-06T11:41:49.402Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-06T11:41:49.402Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:41:49.402Z - [REQUEST]: apps/server/src/app/app.controller.ts,apps/server/src/app/app.service.spec.ts,apps/server/.eslintrc.json,apps/server/webpack.config.js,apps/server/jest.config.ts,apps/server/tsconfig.app.json,apps/server/src/app/app.service.ts,apps/server/src/main.ts,apps/server/project.json,apps/server/src/assets/.gitkeep,apps/server/src/app/app.controller.spec.ts,apps/server/src/app/app.module.ts,apps/server/tsconfig.json,apps/server/tsconfig.spec.json
+[NX Daemon Server] - 2024-04-06T11:41:50.187Z - Time taken for 'hash changed files from watcher' 0.11937499046325684ms
+[NX Daemon Server] - 2024-04-06T11:42:00.385Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:42:00.386Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-04-06T11:42:00.386Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-04-06T11:42:00.387Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-06T11:42:00.388Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-06T11:42:00.389Z - Time taken for 'total for creating and serializing project graph' 0.45958399772644043ms
+[NX Daemon Server] - 2024-04-06T11:42:00.390Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-06T11:42:00.390Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 2.
+[NX Daemon Server] - 2024-04-06T11:42:03.361Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-04-06T11:42:03.361Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-04-06T11:42:03.362Z - Time taken for 'total for creating and serializing project graph' 0.16474997997283936ms
+[NX Daemon Server] - 2024-04-06T11:42:03.367Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-04-06T11:42:03.367Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 6.
+[NX Daemon Server] - 2024-04-06T11:42:03.918Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-04-06T11:42:03.951Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-06T11:42:03.954Z - [WATCHER]: 23 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-04-06T11:42:04.056Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-06T11:42:04.056Z - [REQUEST]: apps/server/tsconfig.json,apps/server/src/app/app.controller.ts,apps/server/jest.config.ts,apps/server/src/app/app.service.spec.ts,apps/server-e2e/src/support/global-setup.ts,apps/server/src/assets/.gitkeep,apps/server-e2e/src/support/test-setup.ts,apps/server-e2e/src/support/global-teardown.ts,apps/server/tsconfig.app.json,apps/server/.eslintrc.json,apps/server/src/main.ts,apps/server/webpack.config.js,apps/server/tsconfig.spec.json,apps/server/src/app/app.module.ts,apps/server-e2e/jest.config.ts,apps/server/project.json,apps/server-e2e/project.json,apps/server-e2e/src/server/server.spec.ts,apps/server-e2e/tsconfig.json,apps/server-e2e/tsconfig.spec.json,apps/server/src/app/app.controller.spec.ts,apps/server/src/app/app.service.ts,apps/server-e2e/.eslintrc.json
+[NX Daemon Server] - 2024-04-06T11:42:04.056Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:42:04.673Z - Time taken for 'hash changed files from watcher' 0.9473749995231628ms
+[NX Daemon Server] - 2024-04-06T11:42:46.492Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-04-06T11:42:46.495Z - [WATCHER]: 0 file(s) created or restored, 0 file(s) modified, 9 file(s) deleted
+[NX Daemon Server] - 2024-04-06T11:42:46.697Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-04-06T11:42:46.697Z - [REQUEST]: 
+[NX Daemon Server] - 2024-04-06T11:42:46.697Z - [REQUEST]: apps/server-e2e/src/support/global-setup.ts,apps/server-e2e/jest.config.ts,apps/server-e2e/project.json,apps/server-e2e/.eslintrc.json,apps/server-e2e/tsconfig.spec.json,apps/server-e2e/src/support/test-setup.ts,apps/server-e2e/src/server/server.spec.ts,apps/server-e2e/src/support/global-teardown.ts,apps/server-e2e/tsconfig.json
+[NX Daemon Server] - 2024-04-06T11:42:47.599Z - Time taken for 'hash changed files from watcher' 0.17104196548461914ms

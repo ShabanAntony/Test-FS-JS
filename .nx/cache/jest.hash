@@ -19,5 +19,47 @@
         "{workspaceRoot}/coverage/apps/server"
       ]
     }
+  },
+  "3382829763512349065": {
+    "test": {
+      "command": "jest",
+      "options": {
+        "cwd": "apps/client"
+      },
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "jest"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/client"
+      ]
+    }
+  },
+  "299535190890623047": {
+    "test": {
+      "command": "jest",
+      "options": {
+        "cwd": "apps/server-e2e"
+      },
+      "cache": true,
+      "inputs": [
+        "default",
+        "^production",
+        {
+          "externalDependencies": [
+            "jest"
+          ]
+        }
+      ],
+      "outputs": [
+        "{workspaceRoot}/coverage/server-e2e"
+      ]
+    }
   }
 }
