@@ -13,7 +13,7 @@
     "dev": "run-p dev:*",
     "dev:apps": "npx nx run-many --target=serve --verbose",
     "lint": "npx nx run-many --target=lint",
-    "lint:fix": "npm run lint --fix && npm run prettier --write .",
+    "lint:fix": "npm run lint -- --fix && npx prettier --write .",
     "start": "node dist/apps/server/main.js",
     "build": "npx nx run-many --target=build --verbose --configuration=production",
     "build:debug": "cross-env NODE_ENV=production npm run build --skip-nx-cache --debug"

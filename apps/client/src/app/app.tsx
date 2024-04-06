@@ -1,11 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
+import { NxWelcome } from './nx-welcome';
 
-import NxWelcome from './nx-welcome';
+import { Link, Route, Routes } from 'react-router-dom';
 
-import { Route, Routes, Link } from 'react-router-dom';
-
-export function App() {
+export const App = () => {
   return (
     <div>
       <NxWelcome title="client" />
@@ -48,6 +46,4 @@ export function App() {
       {/* END: routes */}
     </div>
   );
-}
-
-export default App;
+};

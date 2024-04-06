@@ -1,4 +1,25 @@
 # Add files here to ignore them from prettier formatting
 /dist
 /coverage
+/node_modules
+
+libs/bff-api
+
+**/*.md
+**/*.json
+**/*.yaml
+**/.ignored
+**/*.md
+**/*.yaml
+**/*.yml
+**/*.pug
+**/*.prisma
+**/*.lock
+**/*.ico
+**/*.txt
+**/*.svg
+**/*.sql
+**/*.toml
+**/*.graphql
+
 /.nx/cache

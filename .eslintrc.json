@@ -1,11 +1,20 @@
 {
   "root": true,
   "ignorePatterns": ["**/*"],
-  "plugins": ["@nx"],
+  "plugins": ["@nx", "prettier", "import", "jest", "eslint-plugin-no-inline-styles"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "overrides": [
     {
       "files": ["*.ts", "*.tsx", "*.js", "*.jsx"],
+      "extends": ["plugin:react/recommended", "plugin:react-hooks/recommended"],
       "rules": {
+        "semi": ["error", "never"],
+        "object-property-newline": "off",
+        "object-curly-newline": ["off", { "minProperties": 1 }],
         "@nx/enforce-module-boundaries": [
           "error",
           {
@@ -18,13 +27,125 @@
               }
             ]
           }
-        ]
+        ],
+        "no-multi-str": "off",
+        "class-methods-use-this": "off",
+        "consistent-return": "off",
+        "default-case": "off",
+        "no-param-reassign": "off",
+        "no-use-before-define": "off",
+        "no-underscore-dangle": "off",
+        "no-return-await": "off",
+        "guard-for-in": "warn",
+        "quotes": ["error", "single", { "avoidEscape": true }],
+        "padding-line-between-statements": [
+          "error",
+          {
+            "blankLine": "always",
+            "prev": ["const", "let", "var"],
+            "next": "*"
+          },
+          {
+            "blankLine": "any",
+            "prev": ["const", "let", "var"],
+            "next": ["const", "let", "var"]
+          },
+          {
+            "blankLine": "always",
+            "prev": "*",
+            "next": "return"
+          }
+        ],
+        "no-restricted-properties": [
+          "error",
+          {
+            "object": "require",
+            "property": "ensure",
+            "message": "Please use import() instead. More info: https://facebook.github.io/create-react-app/docs/code-splitting"
+          },
+          {
+            "object": "System",
+            "property": "import",
+            "message": "Please use import() instead. More info: https://facebook.github.io/create-react-app/docs/code-splitting"
+          }
+        ],
+        "no-alert": "error",
+        "radix": "off",
+        "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+        "camelcase": "off",
+        "array-bracket-newline": ["off", { "multiline": true, "minItems": 3 }],
+        "func-names": "off",
+        "linebreak-style": "off",
+        "no-nested-ternary": "off",
+        "no-mixed-operators": "off",
+        "no-plusplus": "off",
+        "quote-props": ["warn", "as-needed"],
+        "comma-dangle": ["error", "always-multiline"],
+        "jsx-quotes": ["error", "prefer-double"],
+        "jsx-a11y/click-events-have-key-events": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/no-noninteractive-element-interactions": "off",
+        "no-inline-styles/no-inline-styles": "error",
+        "react/jsx-props-no-spreading": "off",
+        "react-hooks/exhaustive-deps": "error",
+        "react/self-closing-comp": "error",
+        "react/jsx-no-bind": "error",
+        "react/jsx-wrap-multilines": [
+          "error",
+          {
+            "declaration": "parens",
+            "assignment": "parens",
+            "return": "parens",
+            "arrow": "parens",
+            "condition": "ignore",
+            "logical": "ignore",
+            "prop": "ignore"
+          }
+        ],
+        "react/jsx-max-props-per-line": ["error", { "maximum": 2 }],
+        "react/require-default-props": "off",
+        "react/forbid-prop-types": "off",
+        "react/jsx-filename-extension": [
+          1,
+          { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+        ],
+        "react/function-component-definition": [
+          "error",
+          { "namedComponents": "arrow-function" }
+        ],
+        "react/jsx-one-expression-per-line": "off",
+        "react/no-array-index-key": "warn",
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off",
+        "react/jsx-curly-brace-presence": [
+          "error",
+          {
+            "props": "never",
+            "children": "never",
+            "propElementValues": "always"
+          }
+        ],
+        "no-ex-assign": "warn",
+        "arrow-parens": "off",
+        "import/prefer-default-export": "off",
+        "import/no-default-export": "error",
+        "import/extensions": "off",
+        "require-jsdoc": "off",
+        "no-invalid-this": "warn",
+        "no-unused-vars": "warn"
       }
     },
     {
       "files": ["*.ts", "*.tsx"],
       "extends": ["plugin:@nx/typescript"],
-      "rules": {}
+      "rules": {
+        "@typescript-eslint/consistent-type-definitions": "error",
+        "@typescript-eslint/no-unnecessary-type-constraint": "warn",
+        "@typescript-eslint/no-namespace": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/ban-ts-comment": "off"
+      }
     },
     {
       "files": ["*.js", "*.jsx"],
@@ -32,11 +153,14 @@
       "rules": {}
     },
     {
-      "files": ["*.spec.ts", "*.spec.tsx", "*.spec.js", "*.spec.jsx"],
+      "files": ["*.spec.ts", "*.spec.tsx", "*.spec.js", "*.spec.jsx", "*.test.ts", "*.test.tsx", "*.test.js", "*.test.jsx"],
+      "extends": ["plugin:jest/recommended"],
       "env": {
         "jest": true
       },
-      "rules": {}
+      "rules": {
+        "react/jsx-no-bind": "off"
+      }
     }
   ]
 }
