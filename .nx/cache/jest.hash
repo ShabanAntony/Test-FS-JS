@@ -1,26 +1,5 @@
 {
-  "5807024607695236367": {
-    "test": {
-      "command": "jest",
-      "options": {
-        "cwd": "apps/server"
-      },
-      "cache": true,
-      "inputs": [
-        "default",
-        "^production",
-        {
-          "externalDependencies": [
-            "jest"
-          ]
-        }
-      ],
-      "outputs": [
-        "{workspaceRoot}/coverage/apps/server"
-      ]
-    }
-  },
-  "3382829763512349065": {
+  "4024452859276393488": {
     "test": {
       "command": "jest",
       "options": {
@@ -41,11 +20,11 @@
       ]
     }
   },
-  "299535190890623047": {
+  "15800646169691720104": {
     "test": {
       "command": "jest",
       "options": {
-        "cwd": "apps/server-e2e"
+        "cwd": "apps/server"
       },
       "cache": true,
       "inputs": [
@@ -58,7 +37,7 @@
         }
       ],
       "outputs": [
-        "{workspaceRoot}/coverage/server-e2e"
+        "{workspaceRoot}/coverage/apps/server"
       ]
     }
   }
