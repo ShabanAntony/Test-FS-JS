@@ -1,4 +1,4 @@
-/* eslint-disable */
+// eslint-disable-next-line import/no-default-export
 export default {
   displayName: 'client',
   preset: '../../jest.preset.js',
